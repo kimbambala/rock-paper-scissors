@@ -51,10 +51,6 @@ function playRound (playerSelection, computerSelection){
       return ("You Won! Rock beasts Scissors")
     } 
 }
-const playerSelection = prompt("Make your choice: Rock, Paper or Scissors?")
-
-
-
 
 
 /*Write a NEW function called game(). Call the playRound function inside of this one to 
@@ -63,6 +59,7 @@ play a 5 round game that keeps score and reports a winner or loser at the end.*/
 function game (){
   for (let i = 0; i < 5; i++) {
     const computerSelection = getComputerChoice();
+    const playerSelection = prompt("Make your choice: Rock, Paper or Scissors?").toLocaleLowerCase();
   console.log(playRound(playerSelection, computerSelection));
   }
 
