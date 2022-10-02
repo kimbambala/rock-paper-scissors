@@ -1,5 +1,3 @@
-let playerScore = 0
-let computerScore = 0
 
 /*Your game is going to play against the computer, so begin with a function 
 called getComputerChoice that will randomly return either ‘Rock’, ‘Paper’ or ‘Scissors’. 
@@ -55,6 +53,9 @@ function playRound (playerSelection, computerSelection){
 
 /*Write a NEW function called game(). Call the playRound function inside of this one to 
 play a 5 round game that keeps score and reports a winner or loser at the end.*/
+
+let playerScore = 0
+let computerScore = 0
 
 function game (){
   for (let i = 0; i < 5; i++) {
