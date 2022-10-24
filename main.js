@@ -71,5 +71,4 @@ function game (){
     console.log("You both tied. Not too bad. Try again, you should do better");
   }
   
-}
 game();
