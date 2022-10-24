@@ -58,7 +58,6 @@ let playerScore = 0
 let computerScore = 0
 
 function game (){
-  for (let i = 0; i < 5; i++) {
     const computerSelection = getComputerChoice();
     const playerSelection = prompt("Make your choice: Rock, Paper or Scissors?").toLocaleLowerCase();
   console.log(playRound(playerSelection, computerSelection));
